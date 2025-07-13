@@ -38,26 +38,36 @@ quiz-game-tkinter/
 └── requirements.txt
 ```
 
-## Getting Started
-Follow these steps to set up and run the Quiz Game locally.
+## 🚀 Getting Started
+Follow these steps to set up and run the Quiz Game locally.<br>
+📝 Note: These instructions assume you have Python and Git installed.<br> 
+If not, install Python: https://www.python.org/downloads/ (Make sure to check “Add Python to PATH” during installation!)
+install Git: https://git-scm.com/downloads
 
 ### 1. Clone the repository
+<small>Open your terminal (Command Prompt, PowerShell, Git Bash, or macOS/Linux Terminal), then run:</small>
 ```
 git clone https://github.com/emh68/quiz-game-tkinter.git
 cd quiz-game-tkinter
 ```
-### 2. (Optional) Create and activate a virtual environment
-Windows:
+### 2. (Optional but recommended) Create and activate a virtual environment
+<small>This keeps dependencies isolated to this project.</small>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows logo" width="15"/> Windows
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
-macOS/Linux:
+🍎 macOS/🐧Linux
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
+
 ### 3. Install the dependencies
+<small>Run the command below. If you get a "pip not found" error, try `python -m pip install -r requirements.txt` instead.</small>
+
 ```
 pip install -r requirements.txt
 ```
@@ -105,7 +115,7 @@ Clean up the JSON to include only the question and correct_answer fields, and re
       ]
 ```
 **Should look like this:**
-```json
+```python
 question_data = [
     {"question": "In 2016, the IUCN reclassified the status of Giant Pandas from endangered to vulnerable.","correct_answer": "True"},
     {"question": "Male pandas do handstands while urinating on trees. ","correct_answer": "True"}
