@@ -1,7 +1,8 @@
 # Quiz Game (using Python & Tkinter)
 ![Python](https://img.shields.io/badge/Python-3.13-blue.svg)
 ![Tkinter](https://img.shields.io/badge/GUI-Tkinter-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+
 
 An interactive, GUI-based quiz game built with Python using the Tkinter GUI toolkit and Pillow for image processing. The game presents True/False trivia questions and tracks the user's score. This project was built as part of my Python development coursework to demonstrate object-oriented programming, event-driven GUI design, and data-driven functionality.
 
