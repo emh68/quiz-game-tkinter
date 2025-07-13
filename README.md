@@ -22,7 +22,7 @@ An interactive, GUI-based quiz game built with Python using the Tkinter GUI tool
 
 - Python 3.13
 - Tkinter (GUI)
-- Pillow (image handling)
+- Pillow 11.1.0 (image handling)
 
 ## 📁 Project Structure
 ```
