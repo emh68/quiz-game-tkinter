@@ -3,6 +3,19 @@ from PIL import Image, ImageTk
 from quiz_brain import QuizBrain
 from question_model import Question
 from data import question_data
+import sys
+import os
+
+
+def resource_path(relative_path):
+    # Get absolute path to resource for dev and PyInstaller
+    try:
+        base_path = sys._MEIPASS  # PyInstaller temp folder
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 
 # -------------------- Setup Questions -------------------- #
 question_bank = [Question(q["question"], q["correct_answer"])
@@ -36,12 +49,12 @@ question_text = canvas.create_text(0, 0,
 canvas.grid(row=1, column=0, columnspan=2, pady=20)
 
 # Load button images and convert to PhotoImage for tkinter compatibility
-true_img_raw = Image.open(
-    "images/true.png").resize((240, 120), Image.Resampling.LANCZOS)
+true_img_raw = Image.open(resource_path(
+    "images/true.png")).resize((240, 120), Image.Resampling.LANCZOS)
 true_img = ImageTk.PhotoImage(true_img_raw)
 
-false_img_raw = Image.open(
-    "images/false.png").resize((240, 120), Image.Resampling.LANCZOS)
+false_img_raw = Image.open(resource_path(
+    "images/false.png")).resize((240, 120), Image.Resampling.LANCZOS)
 false_img = ImageTk.PhotoImage(false_img_raw)
 
 # Buttons
