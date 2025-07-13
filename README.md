@@ -33,24 +33,51 @@ An interactive, GUI-based quiz game built with Python using the Tkinter GUI tool
 quiz-game-tkinter/
 ├── main.py # GUI and game loop
 ├── question_model.py # Question class
-├── quiz_brain.py # Game logic
+├── quiz_brain.py # Game logic class
 ├── data.py # Question data
 ├── images/ # True/False button images
 ├── README.md
 ```
-markdown
-Copy
-Edit
 
 ## 📷 Screenshots
 
-*(Add screenshots here if you want — optional but nice for visual projects.)*
+
+
+## Getting Started
+Follow these steps to set up and run the Quiz Game locally.
+
+### 1. Clone the repository
+```
+git clone https://github.com/emh68/quiz-game-tkinter.git
+cd quiz-game-tkinter
+```
+### 2. (Optional) Create and activate a virtual environment
+Windows:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+macOS/Linux:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Install the dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+```
+python main.py
+```
+
 
 ## 🔗 Links
 
 - [View the GitHub repo](https://github.com/emh68/quiz-game-tkinter)
 - [More of my projects](https://github.com/emh68)
-- [Connect on LinkedIn](https://www.linkedin.com/in/your-link-here)
+- [Connect on LinkedIn](https://www.linkedin.com/in/elihansen1/)
 
 ## 📜 License
 
