@@ -40,7 +40,7 @@ quiz-game-tkinter/
 
 ## 🚀 Getting Started
 Follow the steps below to set up and run the Quiz Game locally.  
-📝 **Prerequisites**
+📝 **Prerequisites:**
 Make sure you have **Python** and **Git** installed. If not, install them here:
 - [Python Download](https://www.python.org/downloads/)  
 *<small>(Make sure to check “Add Python to PATH” during installation!)</small>*  
