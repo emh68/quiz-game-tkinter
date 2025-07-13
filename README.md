@@ -132,4 +132,4 @@ question_data = [
 
 ## 📜 License
 
-This project is open for educational and personal use. See the [LICENSE](LICENSE) file for details.
+This project is open for educational and personal use. See the [LICENSE](LICENSE.txt) file for details.
